@@ -7,6 +7,8 @@
 
 ############################################################
 
+#starting R with RSQLite
+
 library(RSQLite)
 
 conns <- dbConnect(SQLite(), dbname='C:/Users/rachna/Desktop/survey.sqlite')
