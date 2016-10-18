@@ -11,6 +11,8 @@
 
 library(RSQLite)
 
+#creating table
+
 conns <- dbConnect(SQLite(), dbname='C:/Users/rachna/Desktop/survey.sqlite')
 
 tables <- dbListTables(conns)
