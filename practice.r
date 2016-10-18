@@ -5,6 +5,8 @@
 
 #Packages necessary for this analysis
 
+############################################################
+
 library(RSQLite)
 
 conns <- dbConnect(SQLite(), dbname='C:/Users/rachna/Desktop/survey.sqlite')
