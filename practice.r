@@ -1,6 +1,9 @@
 #What: Software Carpentry Workshop
 #When: October 18th, 2016
 #Who: Rachna Pannu
+#Where: Hatcher Library, UMich
+
+#Packages necessary for this analysis
 
 library(RSQLite)
 
