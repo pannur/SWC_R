@@ -18,8 +18,11 @@ conns <- dbConnect(SQLite(), dbname='C:/Users/rachna/Desktop/survey.sqlite')
 tables <- dbListTables(conns)
 
 
+#setting up analyses
+
 surveys<-read.csv('C:/Users/Rachna/Desktop/ecology.csv 
 
 taxa <- ordered(surveys$taxa, levels = c('Reptile', 'Rabbit', 'Bird','Rodent'))
 
 surveys[surveys$year %in% seq.int(1980,1990) & surveys$taxa =='Rodent',]
+
